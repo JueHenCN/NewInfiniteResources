@@ -29,7 +29,7 @@ namespace NewInfiniteResources_DLC.src
                     new InfiniteStorageConfig(),new ArtConfig(),
                     new LightConfig(),new InfiniteBatteryConfig(),
                     new ArtLightConfig(),new ArtNightLightConfig()
-                    ,new InfiniteFridgeConfig()
+                    ,new InfiniteFridgeConfig(),new SwallowStorageConfig()
                 };
                 foreach (IContentInfo info in newContent)
                 {
