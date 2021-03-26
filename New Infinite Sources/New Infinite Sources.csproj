@@ -90,8 +90,5 @@
     <Compile Include="src\Interface\ContentBasicInfo.cs" />
     <Compile Include="src\Interface\IContentInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <None Include="mod\NewInfiniteResources_all.7z" />
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

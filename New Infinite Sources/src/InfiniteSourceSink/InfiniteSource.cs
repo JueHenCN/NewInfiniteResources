@@ -114,7 +114,7 @@ namespace InfiniteSourceSink
             Temp = Math.Max(Temp, MinAllowedTemperature);
             Temp = Math.Min(Temp, MaxAllowedTemperature);
             SetSliderValue(Temp, -1);
-            if (DetailsScreen.Instance != null && !inUpdate)
+            /*if (DetailsScreen.Instance != null && !inUpdate)
             {
                 inUpdate = true;
                 try
@@ -123,7 +123,7 @@ namespace InfiniteSourceSink
                 }
                 catch (Exception) { }
                 inUpdate = false;
-            }
+            }*/
         }
 
         [OnDeserialized]
