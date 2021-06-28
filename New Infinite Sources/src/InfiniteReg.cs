@@ -1,4 +1,4 @@
-﻿using Harmony;
+﻿using HarmonyLib;
 using Steamworks;
 using System.Collections.Generic;
 using TUNING;
@@ -20,7 +20,7 @@ namespace NewInfiniteResources_DLC.src
 
         [HarmonyPatch(typeof(GeneratedBuildings))]
         [HarmonyPatch("LoadGeneratedBuildings")]
-        public class GeneratedBuildings_LoadGeneratedBuildings_Patch
+        public class GeneratedBuildings_LoadGeneratedBuildings_Patch : KMod.UserMod2
         {
             private static void Prefix()
             {
